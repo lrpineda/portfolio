@@ -40,6 +40,7 @@ header a {
   
 }
 
+/* Nav animation */
 .navi {
     transition: 0.4s;
     padding: 0 5px;
@@ -53,6 +54,7 @@ header a {
     padding: 100px 15px;
     
 }
+/* Nav */
 header nav {
   margin: 7px 0;
 }
@@ -114,7 +116,7 @@ body {
   padding: 10px;
   color: black; 
 }
-
+/* About me section */
 .about {
   background: var(--fourth-color);
   padding: 30px 25px;
@@ -150,13 +152,13 @@ body {
   width: 100%;
 }
 
+/* My Works section */
 .myworks {
   background: var(--fifth-color);
   padding: 30px 25px;
 }
 
-
-
+/* Highlighting project */
 .highlight {
   position: relative;
   display: flex;
@@ -306,23 +308,11 @@ body {
   outline: 1px dashed yellow;
   outline-offset: 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* Contact me section */
 .contact {
     background-color: var(--tertiary-color);
     padding: 30px 25px;
     color: var(--secondary-color);
-    /* text-align: center; */
 }
 .contact-form {
   text-align: center;
@@ -494,7 +484,7 @@ footer h3 {
     
     text-align: right;
 }
-
+/* My work animation */
 @media (hover: hover) and (min-width: 600px) {
   .highlight::after, .work::after {
     transform: translateY(0);
