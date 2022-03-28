@@ -135,22 +135,18 @@ body {
 }
 
 .left {
-  /* width: 35%; */
   flex: 1;
   text-align: left;
   margin: 3.5%;
   font-size: 22px;
   line-height: 1.2;
-  
-  
 }
 
 .left p {
-  padding: 15px;
+  padding-bottom: 15px;
 }
 
 .right {
-  /* width: 40%; */
   margin: 3.5%;
   flex: 1;
 }
