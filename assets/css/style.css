@@ -626,6 +626,10 @@ footer h3 {
   header nav ul li a {
     font-size: 18px;
   }
+  .navi:hover {
+    padding: 30px 15px;
+
+  }
   .info {
     flex: 0 70%;
     font-size: 18px;
