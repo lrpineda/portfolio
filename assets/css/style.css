@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: #0d3b66;
+  --primary-color: rgb(13, 59, 102);
   --secondary-color: rgb(255, 255, 255);
   --tertiary-color: #2e4559; 
   --fourth-color: #f95738;
@@ -18,18 +18,13 @@
 /* Header style */
 header {
   display: flex;
-  padding: 25px 35px;
-  background-color: var(--primary-color);
+  padding: 25px;
+  background-color: rgba(13, 59, 102, 0.95);
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url(../images/bg_imagehero.jpg);
-  background-size: cover;
-  background-position: right;
-  background-attachment: fixed;
-  background-position: 80%;
   z-index: 9999;
 }
 
