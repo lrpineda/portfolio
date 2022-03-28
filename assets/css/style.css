@@ -145,6 +145,10 @@ body {
   
 }
 
+.left p {
+  padding: 15px;
+}
+
 .right {
   /* width: 40%; */
   margin: 3.5%;
