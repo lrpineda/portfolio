@@ -1,38 +1,12 @@
-<!-- 
-
-
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
--->
-
-<!--
-    WHEN I load their portfolio
--->
-
-<!--
-    THEN I am presented with the developer's name, a recent photo 
-    or avatar, and links to sections about them, their work, 
-    and how to contact them
--->
-
-<!--
-    WHEN I click one of the links in the navigation
--->
-<!-- Hi-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>It's Luis</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.1/css/all.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/fyu6mjd.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Luis Pineda | Future Full Stack Developer</title>
   </head>
   <body>
     <header>
@@ -42,37 +16,108 @@ THEN I am presented with a responsive layout that adapts to my viewport
       <nav>
         <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a class="navi"href="#about-me">About</a>
           </li>
           <li>
-            <a href="#my-work">Work</a>
+            <a class="navi" href="#my-work">Work</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a class="navi" href="#contact-me">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="hero">Cool stuff here + picture</section>
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        similique repellat exercitationem quasi doloremque. Soluta dolorum
-        suscipit, fugiat inventore, eligendi modi
-      </p>
-    </section>
-    <section id="my-work" class="works" >
-      <h2>My Works</h2>
-      <div class="works">
-          <article class="work">
 
-          </article>
+    <section class="hero">
+      <div class="hero-cta">
+        <h2> Hello There!</h2>
+        <h3>My name is Luis Pineda.</h3>
+        <p>I'm a computer engineer specializing in web development, building full stack solutions.</p>
       </div>
     </section>
-    <section>
-      <h2>Contact Me</h2>
+    <section id="about-me" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="bio">
+        <div class="left">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore voluptatem est sed? 
+            Impedit dolorem aspernatur architecto nostrum consequatur hic. A, voluptatibus! Amet et inventore, 
+            sequi quam repudiandae quis nam?
+          </p>
+        </div>
+        <div class="right">
+          <img src="./assets/images/aboutpic.jpeg" alt="It's pictue of Luis Pineda" />
+        </div>
+      </div>
+      
+      
+      
     </section>
-    <footer>Love you</footer>
+    <section id="my-work" class="myworks" >
+      <h2 class="section-title">My Works</h2>
+      <div class="works">
+          <article class="highlight">
+            <div class="content">
+              <h2 class="title">Run-Buddy</h2>
+              <p class="copy">My latest project is the Run-Buddy website</p>
+              <a class="btn" href="https://lrpineda.github.io/run-buddy/" target="_blank">View Project</a>
+            </div>
+          </article>
+          <div class="other-works">
+            <article class="work">
+              <div class="content">
+                <h2 class="title">Horiseon</h2>
+                <p class="copy">Helped refactor the website to HTML5 CSS3 standards </p>
+                <a class="btn" href="https://lrpineda.github.io/Challenge-1/" target="_blank">View Project</a>
+              </div>
+            </article>
+            <article class="work">
+              <div class="content">
+                <h2 class="title">Comming Soon</h2>
+                <p class="copy">Come back to see new projects</p>
+                <a class="btn" href="">View Project</a>
+              </div>
+            </article>
+            <article class="work">
+              <div class="content">
+                <h2 class="title">Comming Soon</h2>
+                <p class="copy">Come back to see new projects</p>
+                <a class="btn" href="">View Project</a>
+              </div>
+            </article>
+          </div>
+          
+          
+      </div>
+    </section>
+    <section id="contact-me" class="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-form">
+        <fieldset>
+          <h3 class="f-subtitle">Although I’m not currently looking for any new opportunities, 
+            my inbox is always open. Whether you have a question or just want to say hi, 
+            I’ll try my best to get back to you!</h3>
+          <input type="text" name="fname" placeholder="Your Name">
+          <textarea name="fmessage" placeholder="Your Message"></textarea>
+          <button type="submit" name="submit" class="submit">Submit</button>
+        </fieldset>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/luisrpineda/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/lrpineda" target="_blank" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <h3>Made with love ❤️</h3>
+      
+      
+      <div class="copyright">
+        <p>&copy; 2022 Luis Pineda.</p>
+      </div>
+    </footer>
   </body>
 </html>
