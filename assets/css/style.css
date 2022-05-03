@@ -211,7 +211,7 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .highlight:nth-child(1)::before {
-  background-image: url(../images/run-buddy.png);
+  background-image: url(../images/afterParty.png);
 }
 
 .other-works {
@@ -281,10 +281,10 @@ body {
 }
 
 .work:nth-child(1)::before {
-  background-image: url(../images/Horiseon.png);
+  background-image: url(../images/run-buddy.png);
 }
 .work:nth-child(2)::before {
-  background-image: url(../images/coming-soon.jpeg);
+  background-image: url(../images/Horiseon.png);
 }
 .work:nth-child(3)::before {
   background-image: url(../images/coming-soon.jpeg);
